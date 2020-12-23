@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>module2_solution</title>
+	<link rel="stylesheet" href="stylesheet1.css">
+</head>
+<style>
+ * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #eeccff;
+    }
+
+    h1 {
+        margin: 100px;
+        text-align: center;
+        font-family: serif,sans-serif;
+        font-weight: bold;
+        
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .section1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #ffa2dc;
+
+    }
+
+    .section2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #ffa2dc;
+
+    }
+
+    .section3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #ffa2dc;
+
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: gray;
+        font-family: serif,sans-serif;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+		text-align: justify
+    }
+
+    .row {
+        width: 90%;
+    }
+
+    
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+   
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+	</style>
+
+<body>
+    <h1>Corona Virus</h1>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="section1">About</p>
+            <p class="content">
+                Coronavirus disease is an infectious disease caused 
+				by a newly discovered coronavirus.Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease,
+				and cancer are more likely to develop serious illness.
+            </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="section2">Impact</p>
+            <p class="content">The coronavirus crisis and its economic effects
+			coincides with the 50th anniversary of Milton Friedman's influential 
+			assertion that the social responsibility of business was only to increase its profits, within the law. 
+			This mantra has gained a strong hold on much of business practice, with a fierce focus on the short term. It is in this context that business 
+			leaders will be responding to the effects of the coronavirus crisis.</p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+        <div>
+            <p class="section3">Symptoms</p>
+            <p class="content">People with COVID-19 have had a wide range of symptoms reported
+			ranging from mild symptoms to severe illness.
+			Symptoms may appear 2-14 days after exposure to the virus.
+			People with fever or chills,cough,shortness of breath and fatigue may have COVID-19
+			       </p>
+        </div>
+    </section>    
+</body>
+
+</html>
