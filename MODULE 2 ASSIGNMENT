@@ -58,7 +58,6 @@
 
     .section2 {
         float: right;
-        color: white;
         width: 100px;
         padding: 5px;
         margin: 0px;
@@ -135,10 +134,10 @@
 	</style>
 
 <body>
-    <h1>Corona Virus</h1>
+    <h1>SPORTS</h1>
     <section class="column-lg-4 colmn-md-6 colmn-sm-12">
         <div>
-            <p class="section1">About</p>
+            <p class="section1">CRICKET</p>
             <p class="content">
                 Coronavirus disease is an infectious disease caused 
 				by a newly discovered coronavirus.Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease,
@@ -148,7 +147,7 @@
     </section>
     <section class="column-lg-4 colmn-md-6 colmn-sm-12">
         <div>
-            <p class="section2">Impact</p>
+            <p class="section2">BADMINTON</p>
             <p class="content">The coronavirus crisis and its economic effects
 			coincides with the 50th anniversary of Milton Friedman's influential 
 			assertion that the social responsibility of business was only to increase its profits, within the law. 
@@ -158,7 +157,7 @@
     </section>
     <section class="column-lg-4 colmn-md-12 colmn-sm-12">
         <div>
-            <p class="section3">Symptoms</p>
+            <p class="section3">TENNIS</p>
             <p class="content">People with COVID-19 have had a wide range of symptoms reported
 			ranging from mild symptoms to severe illness.
 			Symptoms may appear 2-14 days after exposure to the virus.
